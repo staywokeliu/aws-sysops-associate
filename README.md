@@ -18,7 +18,7 @@
 2-4 AWS Config  
 2-5 AWS Personal Heath Dashboard  
 
-### [第3章 信頼性と維持ネス継続性](./document/Chapter3.md)
+### [第3章 信頼性とビジネス継続性](./document/Chapter3.md)
 3-1 ユースケースに応じた拡張性と伸縮性の実現  
 - AWS Auto Scalingプランの作成と維持
 - キャッシングの実装
@@ -70,7 +70,6 @@
 - 転送時の暗号化を実装する
 - AWSのサービスを使用してシークレット情報を安全に保管する
 - レポートまたは調査結果を確認する
-
 
 ### [第6章 ネットワークとコンテンツ配信](./document/Chapter6.md)
 6-1 ネットワーク機能と接続性の実装
