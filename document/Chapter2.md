@@ -28,7 +28,7 @@
 そのなか、一番重要なのは`CloudWatch`です。
 
 
-![chapter1_page1.drawio.png](../drawio/chapter1_page1.drawio.png)
+![chapter1_page1.drawio.png](../drawio/chapter1_page1.drawio.png "cloudwatch")
 
 
 <a id="2-2"></a>
