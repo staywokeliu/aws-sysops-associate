@@ -29,6 +29,8 @@
 
 ![chapter2_Page1.drawio.png](../drawio/chapter2-Page-1.drawio.png)
 
+![chapter2_Page1.drawio.png](../drawio/chapter2-page-1.drawio.png)
+
 <a id="2-2"></a>
 ### 2-2_Amazon CloudWatch
 
