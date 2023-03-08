@@ -18,15 +18,12 @@
 <a id="2-1"></a>
 ### 2-1_AWSのモニタリング及びロギングサービスの概要
 
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-
-
+| モニタリング・ロギング対象  | AWSサービス |
+| ------------- | ------------- |
+| AWSリソースの使用状況  | Amazon CloudWatch  |
+| AWSのAPI実行状況  | AWS CloudTrail  |
+| AWSリソースの設定状況  | AWS Config  |
+| AWSイベントの予定・状況  | AWS Personal Health Dashboard  |
 
 <a id="2-2"></a>
 ### 2-2_Amazon ClousWatch
