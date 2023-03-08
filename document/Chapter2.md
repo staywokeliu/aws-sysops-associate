@@ -25,6 +25,12 @@
 | AWSリソースの設定状況  | AWS Config  |
 | AWSイベントの予定・状況  | AWS Personal Health Dashboard  |
 
+そのなか、一番重要なのは`CloudWatch`です。
+
+
+![chapter1_page1.drawio.png](../drawio/chapter1_page1.drawio.png)
+
+
 <a id="2-2"></a>
 ### 2-2_Amazon ClousWatch
 a  
