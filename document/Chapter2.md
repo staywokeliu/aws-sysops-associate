@@ -27,7 +27,7 @@
 
 そのなか、一番重要なのは`CloudWatch`です。
 
-![chapter1_page1.drawio.png](../drawio/chapter1_page1.drawio.png)
+![chapter2_page1.drawio.png](../drawio/chapter2-page-1.drawio.png)
 
 <a id="2-2"></a>
 ### 2-2_Amazon CloudWatch
@@ -37,6 +37,9 @@ CloudWatchが収集・可視化・障害検知を行う対象データは以下�
 - ログ
 - イベント
 
+**メトリクスの監視**
+
+![chapter2_page2.drawio.png](../drawio/chapter2-page-2.drawio.png)
 
 <a id="2-3"></a>
 ### 2-3_AWS CloudTrail
