@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T13:01:35.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="fyP3D2svLJ7KEhBEJ3LD" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-09T13:07:48.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="XqzYc0aqtkz46dLxtGC3" type="github" pages="7">
   <diagram id="PgkF_S0J_-EuKKebUi4g" name="Page-1">
     <mxGraphModel dx="1087" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -424,6 +424,52 @@
         </mxCell>
         <mxCell id="eXjZNRV6ZReWOBKWhtr2-3" value="・準拠状況のチェック&lt;br&gt;・修復アクションの実行&lt;br&gt;・SNSによる通知" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="564" y="342.5" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BEwhLZ19OgD2O7k-MO-L" name="Page-7">
+    <mxGraphModel dx="1087" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1M1ctje84mGp55SsuoyZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="5gX7qPZAIwDOQoIsD7hb-1" target="1M1ctje84mGp55SsuoyZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="5gX7qPZAIwDOQoIsD7hb-1" target="1M1ctje84mGp55SsuoyZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-7" value="カスタムルール" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1M1ctje84mGp55SsuoyZ-6">
+          <mxGeometry x="0.1778" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5gX7qPZAIwDOQoIsD7hb-1" value="Config ルール" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rule_2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="296.15" width="45" height="43.85" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="1M1ctje84mGp55SsuoyZ-1" target="5gX7qPZAIwDOQoIsD7hb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-1" value="AWS Config" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.config;" vertex="1" parent="1">
+          <mxGeometry x="120" y="295" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-2" value="Lambda関数" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="278.5" y="430" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1M1ctje84mGp55SsuoyZ-3" value="Systems&lt;br&gt;Manager&lt;br&gt;Automation" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.automation;" vertex="1" parent="1">
+          <mxGeometry x="440" y="293.5" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="XbU4kmld21nuPo0wFnhh-1" value="AWSリソースの&lt;br&gt;設定変更 or 定期的" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=15;size=33;position=0.62;position2=0.54;" vertex="1" parent="1">
+          <mxGeometry x="130" y="222.5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XbU4kmld21nuPo0wFnhh-2" value="・CloudTrailの証跡有効化&lt;br&gt;・S3バケットの非公開&lt;br&gt;・EC2インスタンスの停止&lt;br&gt;etc." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="295" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XbU4kmld21nuPo0wFnhh-3" value="修復アクションの実行" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=15;size=30;position=0.24;position2=0.39;" vertex="1" parent="1">
+          <mxGeometry x="400" y="213.5" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XbU4kmld21nuPo0wFnhh-4" value="非準拠の場合" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
