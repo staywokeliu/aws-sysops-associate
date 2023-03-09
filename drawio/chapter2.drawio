@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T13:07:48.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="XqzYc0aqtkz46dLxtGC3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-09T13:08:20.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="wii15JT9YQNyQIJdi_pX" type="github" pages="7">
   <diagram id="PgkF_S0J_-EuKKebUi4g" name="Page-1">
     <mxGraphModel dx="1087" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -439,9 +439,9 @@
         <mxCell id="1M1ctje84mGp55SsuoyZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0000FF;" edge="1" parent="1" source="5gX7qPZAIwDOQoIsD7hb-1" target="1M1ctje84mGp55SsuoyZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1M1ctje84mGp55SsuoyZ-7" value="カスタムルール" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1M1ctje84mGp55SsuoyZ-6">
+        <mxCell id="1M1ctje84mGp55SsuoyZ-7" value="（カスタムルール）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1M1ctje84mGp55SsuoyZ-6">
           <mxGeometry x="0.1778" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5gX7qPZAIwDOQoIsD7hb-1" value="Config ルール" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rule_2;" vertex="1" parent="1">
@@ -463,7 +463,7 @@
           <mxGeometry x="130" y="222.5" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XbU4kmld21nuPo0wFnhh-2" value="・CloudTrailの証跡有効化&lt;br&gt;・S3バケットの非公開&lt;br&gt;・EC2インスタンスの停止&lt;br&gt;etc." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="295" width="160" height="60" as="geometry" />
+          <mxGeometry x="520" y="280.58" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="XbU4kmld21nuPo0wFnhh-3" value="修復アクションの実行" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=15;size=30;position=0.24;position2=0.39;" vertex="1" parent="1">
           <mxGeometry x="400" y="213.5" width="139" height="80" as="geometry" />
