@@ -52,37 +52,30 @@ CloudWatchが収集・可視化・障害検知を行う対象データは以下�
 
 <a id="2-3"></a>
 ### 2-3_AWS CloudTrail
-a  
-a  
-a  
-a  
-a  
-a  
-a  
+
+CloudTrailによるAPI利用状況の収集と証跡ログの出力
+
+![chapter2_Page5.drawio.png](../drawio/chapter2-Page-5.drawio.png)
+
 
 <a id="2-4"></a>
 ### 2-4_AWS Config
-a  
-a  
-a  
-a  
-a  
-a  
-a  
+
+AWS Configの動作の概要
+
+![chapter2_Page6.drawio.png](../drawio/chapter2-Page-6.drawio.png)
+
+AWS Configルールの動作の概要
+
+![chapter2_Page7.drawio.png](../drawio/chapter2-Page-7.drawio.png)
 
 
 <a id="2-5"></a>
 ### 2-5_AWS Personal Heath Dashboard
-a  
-a  
-a  
-a  
-a  
-a  
-a  
 
+AWS Personal Health Dashboardに表示されるAWSイベントの種類
 
-
+![chapter2_Page8.drawio.png](../drawio/chapter2-Page-8.drawio.png)
 
 
 <br>
