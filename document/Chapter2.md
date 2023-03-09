@@ -41,6 +41,15 @@ CloudWatchが収集・可視化・障害検知を行う対象データは以下�
 
 ![chapter2_Page2.drawio.png](../drawio/chapter2-Page-2.drawio.png)
 
+**ログの監視**
+
+![chapter2_Page3.drawio.png](../drawio/chapter2-Page-3.drawio.png)
+
+**イベントの監視**
+
+![chapter2_Page4.drawio.png](../drawio/chapter2-Page-4.drawio.png)
+
+
 <a id="2-3"></a>
 ### 2-3_AWS CloudTrail
 a  
