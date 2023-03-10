@@ -39,7 +39,12 @@ Auto Scalingには次の３種類があります。
 - スケーリングのオプション
 - スケーリング対象
 
+この３つの関係性を示したものが次の図です。
+![chapter2_Page1.drawio.png](../drawio/chapter3/chapter3-Page-1.drawio.png)
 
+ELBとの関係
+
+Auto ScalingとALBとの関係
 
 
 **キャッシングの実装**
