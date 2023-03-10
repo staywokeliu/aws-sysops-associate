@@ -27,7 +27,7 @@
 
 そのなか、一番重要なのは`CloudWatch`です。
 
-![chapter2_Page1.drawio.png](../drawio/chapter2-Page-1.drawio.png)
+![chapter2_Page1.drawio.png](../drawio/chapter2/chapter2-Page-1.drawio.png)
 
 <a id="2-2"></a>
 ### 2-2_Amazon CloudWatch
@@ -39,15 +39,15 @@ CloudWatchが収集・可視化・障害検知を行う対象データは以下�
 
 **メトリクスの監視**
 
-![chapter2_Page2.drawio.png](../drawio/chapter2-Page-2.drawio.png)
+![chapter2_Page2.drawio.png](../drawio/chapter2/chapter2-Page-2.drawio.png)
 
 **ログの監視**
 
-![chapter2_Page3.drawio.png](../drawio/chapter2-Page-3.drawio.png)
+![chapter2_Page3.drawio.png](../drawio/chapter2/chapter2-Page-3.drawio.png)
 
 **イベントの監視**
 
-![chapter2_Page4.drawio.png](../drawio/chapter2-Page-4.drawio.png)
+![chapter2_Page4.drawio.png](../drawio/chapter2/chapter2-Page-4.drawio.png)
 
 
 <a id="2-3"></a>
@@ -55,7 +55,7 @@ CloudWatchが収集・可視化・障害検知を行う対象データは以下�
 
 CloudTrailによるAPI利用状況の収集と証跡ログの出力
 
-![chapter2_Page5.drawio.png](../drawio/chapter2-Page-5.drawio.png)
+![chapter2_Page5.drawio.png](../drawio/chapter2/chapter2-Page-5.drawio.png)
 
 
 <a id="2-4"></a>
@@ -63,11 +63,11 @@ CloudTrailによるAPI利用状況の収集と証跡ログの出力
 
 AWS Configの動作の概要
 
-![chapter2_Page6.drawio.png](../drawio/chapter2-Page-6.drawio.png)
+![chapter2_Page6.drawio.png](../drawio/chapter2/chapter2-Page-6.drawio.png)
 
 AWS Configルールの動作の概要
 
-![chapter2_Page7.drawio.png](../drawio/chapter2-Page-7.drawio.png)
+![chapter2_Page7.drawio.png](../drawio/chapter2/chapter2-Page-7.drawio.png)
 
 
 <a id="2-5"></a>
@@ -75,7 +75,7 @@ AWS Configルールの動作の概要
 
 AWS Personal Health Dashboardに表示されるAWSイベントの種類
 
-![chapter2_Page8.drawio.png](../drawio/chapter2-Page-8.drawio.png)
+![chapter2_Page8.drawio.png](../drawio/chapter2/chapter2-Page-8.drawio.png)
 
 
 <br>
