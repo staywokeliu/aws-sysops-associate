@@ -14,11 +14,7 @@
 
 [2-5 AWS Personal Heath Dashboard](#2-5)
 
-<br>
-
 -----
-
-<br>
 
 <a id="2-1"></a>
 ### 2-1_AWSのモニタリング及びロギングサービスの概要
