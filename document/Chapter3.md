@@ -40,18 +40,45 @@ Auto Scalingには次の３種類があります。
 - スケーリング対象
 
 この３つの関係性を示したものが次の図です。  
-![chapter2_Page1.drawio.png](../drawio/chapter3/chapter3-Page-1.drawio.png)
+![chapter3_Page1.drawio.png](../drawio/chapter3/chapter3-Page-1.drawio.png)
 
 ELBとの関係
 
 Auto ScalingとALBとの関係  
-![chapter2_Page2.drawio.png](../drawio/chapter3/chapter3-Page-2.drawio.png)
+![chapter3_Page2.drawio.png](../drawio/chapter3/chapter3-Page-2.drawio.png)
 
 **キャッシングの実装**
 
+キャッシングが行えるAWSサービスには下記があります。
+- Amazon ElastiCache
+- Amazon DynamoDB Accelerator(DAX)
+- Amazon CloudFront
+- Amazon MemoryDB
+
+ElastiCacheの概要  
+![chapter3_Page3.drawio.png](../drawio/chapter3/chapter3-Page-3.drawio.png)
+
+
+ElastiCacheのスケーリング
+
+Memcachedのスケーリング  
+![chapter3_Page4.drawio.png](../drawio/chapter3/chapter3-Page-4.drawio.png)
+
+
+Redisのスケール  
+![chapter3_Page5.drawio.png](../drawio/chapter3/chapter3-Page-5.drawio.png)
+
+
+ElastiCacheの障害時の挙動  
+![chapter3_Page6.drawio.png](../drawio/chapter3/chapter3-Page-6.drawio.png)
 
 
 **Amazon RDSレプリカとAmazon Auroraレプリカの実装**
+
+レプリカ
+
+RDSのレプリカ  
+![chapter3_Page7.drawio.png](../drawio/chapter3/chapter3-Page-7.drawio.png)
 
 
 **疎結合アーキテクチャの実装**
