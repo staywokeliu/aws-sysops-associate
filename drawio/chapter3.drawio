@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T11:24:58.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="pPI1XmvLjS3ebG9Of6Iq" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-11T11:25:32.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="ri1shiUn2xx2yE_Wt-09" type="github" pages="5">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -223,6 +223,9 @@
         </mxCell>
         <mxCell id="QFdx6nYrZKNdO7qHOgHg-16" value="set/get" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-25;" vertex="1" parent="1">
           <mxGeometry x="240" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2_tkXmfkv9woCNOckBD-1" value="Memcachedのスケール" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
