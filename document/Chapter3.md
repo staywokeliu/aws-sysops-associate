@@ -80,13 +80,45 @@ ElastiCacheの障害時の挙動
 RDSのレプリカ  
 ![chapter3_Page7.drawio.png](../drawio/chapter3/chapter3-Page-7.drawio.png)
 
+AuroraのリードレプリカはAWS Auto Scalingでオートスケーリングが可能で、
+次のメトリクスが利用可能です。
+- CPU使用率
+- 平均接続数
 
 **疎結合アーキテクチャの実装**
+
+Amazon SQS
+
+疎結合アーキテクチャを代表するAWSサービスの１つは<span style="color: pink; ">Amazon SQS</span>です。
+Amazon SQSは、フルマネージドなメッセージキューイングサービスで、分散されたシステム間で非同期メッセージが行えるキューを提供します。
+
+![chapter3_Page8.drawio.png](../drawio/chapter3/chapter3-Page-8.drawio.png)
+
+重い処理などを実行したい場合、タスクを分割してSQSへキューを送信し、それを複数のコンシューマーが処理するようなスケーリングも可能になります。
+
+![chapter3_Page9.drawio.png](../drawio/chapter3/chapter3-Page-9.drawio.png)
+
+コンシューマーのスケーリングはAWS Auto Scalingで可能です。  
+キュー数などのメトリクスを取得し、その値をカスタムメトリクスとして、CloudWatchに入れるアプリケーションを作成することで可能になります。
+
+![chapter3_Page10.drawio.png](../drawio/chapter3/chapter3-Page-10.drawio.png)
 
 
 **水平方向のスケーリングと垂直方向のスケーリングの区別**
 
+<span style="color: pink; ">垂直スケーリング</span>とは、CPUやメモリなどのリソースのスペックを変更する方法で、スペックを上げることを<span style="color: pink; ">スケールアップ</span>、スペックを下げることを<span style="color: pink; ">スケールダウン</span>と呼びます。
 
+<span style="color: pink; ">水平スケーリング</span>とは、リソースの数を増減する方法で、増やすことを<span style="color: pink; ">スケーリングアウト</span>、減らすことを<span style="color: pink; ">スケールイン</span>と呼びます。
+
+一般的には、スケートフルなアプリケーションは水平スケーリングではなく、垂直スケーリングがすすめられている。
+
+例えば、サーバ内にログイン情報などのセッション情報を持っている場合を考えます。もし、スケールインで設計すると、auto scalingが収束時、自動でダウンされますので、そのインスタンス内に保存した情報が失ってしまいます。
+
+![chapter3_Page11.drawio.png](../drawio/chapter3/chapter3-Page-11.drawio.png)
+
+対処法として、ステートフルになっているセッション情報をスケーリングの外にあるElastiCacheへ出して上げることが考えられます。これにより、サーバーはステートレスとなるため、水平スケーリングが可能になります。
+
+![chapter3_Page12.drawio.png](../drawio/chapter3/chapter3-Page-12.drawio.png)
 
 
 <a id="3-2"></a>
