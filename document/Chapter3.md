@@ -96,7 +96,7 @@ AuroraのリードレプリカはAWS Auto Scalingでオートスケーリング�
 
 Amazon SQS
 
-疎結合アーキテクチャを代表するAWSサービスの１つは<span style="color: pink; ">Amazon SQS</span>です。
+疎結合アーキテクチャを代表するAWSサービスの１つは<です。**Amazon SQS**です。
 Amazon SQSは、フルマネージドなメッセージキューイングサービスで、分散されたシステム間で非同期メッセージが行えるキューを提供します。
 
 ![chapter3_Page8.drawio.png](../drawio/chapter3/chapter3-Page-8.drawio.png)
@@ -114,9 +114,9 @@ Amazon SQSは、フルマネージドなメッセージキューイングサー�
 
 **水平方向のスケーリングと垂直方向のスケーリングの区別**
 
-<span style="color: pink; ">垂直スケーリング</span>とは、CPUやメモリなどのリソースのスペックを変更する方法で、スペックを上げることを<span style="color: pink; ">スケールアップ</span>、スペックを下げることを<span style="color: pink; ">スケールダウン</span>と呼びます。
+**垂直スケーリング**とは、CPUやメモリなどのリソースのスペックを変更する方法で、スペックを上げることをスケールアップ、スペックを下げることをスケールダウンと呼びます。
 
-<span style="color: pink; ">水平スケーリング</span>とは、リソースの数を増減する方法で、増やすことを<span style="color: pink; ">スケーリングアウト</span>、減らすことを<span style="color: pink; ">スケールイン</span>と呼びます。
+**水平スケーリング**とは、リソースの数を増減する方法で、増やすことをスケーリングアウト、減らすことをスケールインと呼びます。
 
 一般的には、スケートフルなアプリケーションは水平スケーリングではなく、垂直スケーリングがすすめられている。
 
