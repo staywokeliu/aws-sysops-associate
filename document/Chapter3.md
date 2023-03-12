@@ -96,7 +96,7 @@ AuroraのリードレプリカはAWS Auto Scalingでオートスケーリング�
 
 Amazon SQS
 
-疎結合アーキテクチャを代表するAWSサービスの１つは<です。**Amazon SQS**です。
+疎結合アーキテクチャを代表するAWSサービスの１つは**Amazon SQS**です。
 Amazon SQSは、フルマネージドなメッセージキューイングサービスで、分散されたシステム間で非同期メッセージが行えるキューを提供します。
 
 ![chapter3_Page8.drawio.png](../drawio/chapter3/chapter3-Page-8.drawio.png)
