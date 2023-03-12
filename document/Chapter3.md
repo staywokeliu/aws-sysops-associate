@@ -3,11 +3,11 @@
 
 [3-1 ユースケースに応じた拡張性と伸縮性の実現](#3-1)
 
-- AWS Auto Scalingプランの作成と維持
-- キャッシングの実装
-- Amazon RDSレプリカとAmazon Auroraレプリカの実装
-- 疎結合アーキテクチャの実装
-- 水平方向のスケーリングと垂直方向のスケーリングの区別
+- [AWS Auto Scalingプランの作成と維持](#3-1-1)
+- [キャッシングの実装](#3-1-2)
+- [Amazon RDSレプリカとAmazon Auroraレプリカの実装](#3-1-3)
+- [疎結合アーキテクチャの実装](#3-1-4)
+- [水平方向のスケーリングと垂直方向のスケーリングの区別](#3-1-5)
 
 [3-2 高可用性と耐障害性のある環境の構築](#3-2)
 
@@ -28,6 +28,8 @@
 <a id="3-1"></a>
 ### 3-1 ユースケースに応じた拡張性と伸縮性の実現
 
+<a id="3-1-1"></a>
+
 **AWS Auto Scalingプランの作成と維持**
 
 Auto Scalingには次の３種類があります。
@@ -46,6 +48,8 @@ ELBとの関係
 
 Auto ScalingとALBとの関係  
 ![chapter3_Page2.drawio.png](../drawio/chapter3/chapter3-Page-2.drawio.png)
+
+<a id="3-1-2"></a>
 
 **キャッシングの実装**
 
@@ -72,6 +76,7 @@ Redisのスケール
 ElastiCacheの障害時の挙動  
 ![chapter3_Page6.drawio.png](../drawio/chapter3/chapter3-Page-6.drawio.png)
 
+<a id="3-1-3"></a>
 
 **Amazon RDSレプリカとAmazon Auroraレプリカの実装**
 
@@ -84,6 +89,8 @@ AuroraのリードレプリカはAWS Auto Scalingでオートスケーリング�
 次のメトリクスが利用可能です。
 - CPU使用率
 - 平均接続数
+
+<a id="3-1-4"></a>
 
 **疎結合アーキテクチャの実装**
 
@@ -103,6 +110,7 @@ Amazon SQSは、フルマネージドなメッセージキューイングサー�
 
 ![chapter3_Page10.drawio.png](../drawio/chapter3/chapter3-Page-10.drawio.png)
 
+<a id="3-1-5"></a>
 
 **水平方向のスケーリングと垂直方向のスケーリングの区別**
 
