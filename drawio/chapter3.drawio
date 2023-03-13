@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T12:55:36.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="fON-aoDVPZQoUFVta-Wf" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-03-13T12:58:06.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="BovlrTDQ8d_rjCEi7q1M" type="github" pages="17">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -985,12 +985,12 @@
         </mxCell>
         <mxCell id="N4csHD3BWy9o_rWaFFK7-2" value="" style="endArrow=none;html=1;strokeWidth=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="380" as="sourcePoint" />
+            <mxPoint x="135" y="380" as="sourcePoint" />
             <mxPoint x="630" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N4csHD3BWy9o_rWaFFK7-3" value="EC2のマルチAZ" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="380" width="200" height="30" as="geometry" />
+          <mxGeometry x="135" y="380" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l1KxtdrLMSuGngvfNowM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="--mx6ZPvtZet4PUAW0Np-1" target="--mx6ZPvtZet4PUAW0Np-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1032,12 +1032,12 @@
         </mxCell>
         <mxCell id="ejRg_gu1ku_7-tjMMDhj-3" value="" style="endArrow=none;html=1;strokeWidth=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="380" as="sourcePoint" />
-            <mxPoint x="630" y="380" as="targetPoint" />
+            <mxPoint x="130" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ejRg_gu1ku_7-tjMMDhj-4" value="RDSのマルチAZ" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="380" width="200" height="30" as="geometry" />
+          <mxGeometry x="130" y="380" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ejRg_gu1ku_7-tjMMDhj-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="ejRg_gu1ku_7-tjMMDhj-9" target="ejRg_gu1ku_7-tjMMDhj-15">
           <mxGeometry relative="1" as="geometry" />
