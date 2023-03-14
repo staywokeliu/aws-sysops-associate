@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T12:51:39.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="vgY-xJLBW8wvXtV9xDw6" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-03-14T12:58:41.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="v7Dk2KgkxNmdVNmWQzVt" type="github" pages="24">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1740,6 +1740,92 @@
         </mxCell>
         <mxCell id="aRPZMjunkfmHzgOjPsBZ-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#007FFF;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aRPZMjunkfmHzgOjPsBZ-7" target="aRPZMjunkfmHzgOjPsBZ-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RlfrWxJTF3GA4xkYKzmF" name="Page-24">
+    <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-1" value="東京リージョン" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="156.88" y="230" width="117.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-2" value="日本ユーザー" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-3" value="" style="endArrow=none;html=1;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="450" as="sourcePoint" />
+            <mxPoint x="495" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-4" value="レイテンシールーティングポリシー" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="450" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1" source="UZUsDxvN0wbkV7xxyMCr-7" target="UZUsDxvN0wbkV7xxyMCr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-7" value="&amp;nbsp; Route 53&lt;br&gt;&amp;nbsp; レイテンシールーティング" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-8" value="ALB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="193.13" y="250" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="203.13" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-9">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-9">
+          <mxGeometry x="10" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-9">
+          <mxGeometry x="20" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.5" y="120" as="sourcePoint" />
+            <mxPoint x="314.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215.13" y="316.25" as="sourcePoint" />
+            <mxPoint x="215.13" y="346.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-15" value="オハイオリージョン" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="353.13" y="230" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-16" value="ALB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="390.63" y="250" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400.63" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-17">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-17">
+          <mxGeometry x="10" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZUsDxvN0wbkV7xxyMCr-17">
+          <mxGeometry x="20" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-21" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#007FFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.63" y="316.25" as="sourcePoint" />
+            <mxPoint x="412.63" y="346.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4D4D4D;dashed=1;" edge="1" parent="1" source="UZUsDxvN0wbkV7xxyMCr-7" target="UZUsDxvN0wbkV7xxyMCr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UZUsDxvN0wbkV7xxyMCr-25" value="日本からのレイテンシーが低いので日本の方を選択" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=24;dy=16;size=5;boundedLbl=1;direction=east;flipH=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
