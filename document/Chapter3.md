@@ -188,11 +188,54 @@ Amazon FSxのマルチAZ化
 
 **フォールトトレラントなワークロードの実装**
 
+フォールトトレラントとは、耐障害性があることで、コンポーネントの一部が故障しても、システムがパフォーマンスを落とさずに動作し続けることです。Amazon EFSやElastic IPアドレスを利用することで、フォールトトレラントを向上できます。
+
+![chapter3_Page18.drawio.png](../drawio/chapter3/chapter3-Page-18.drawio.png)
+
+![chapter3_Page19.drawio.png](../drawio/chapter3/chapter3-Page-19.drawio.png)
+
+
+Elastic IPアドレス、別のインスタンスに割り当て直すことが可能です。
+
+![chapter3_Page20.drawio.png](../drawio/chapter3/chapter3-Page-20.drawio.png)
+
 
 <a id="3-2-4"></a>
 
 **Route53ルーティングポリシーの実装**
 
+ルーティングポリシーはレコード作成時に決定でき、次の７種類があります。
+- シンプルルーティングポリシー
+- 加重 〜
+- フェイルオーバー 〜
+- 複数値回答 〜
+- レイテンシー 〜
+- 位置情報 〜
+- 地理的接近性 〜
+
+シンプルルーティングポリシー  
+標準のDNSレコードを設定でき、トラフィックを１つのリソースにルーティングする場合利用します。  
+複数のレコードを同じ名前と型で作成できないが、同一レコードで複数のIPアドレスなど複数の値を指定できます。  
+<ins>複数の値を設定すると**ランダムに**値が返される、**DNSラウンドロビン**と呼ばれる負荷分散が可能です。</ins>
+
+加重ルーティングポリシー  
+割合を決めて負荷分散する方式です。
+
+![chapter3_Page21.drawio.png](../drawio/chapter3/chapter3-Page-21.drawio.png)
+
+フェイルオーバールーティングポリシー  
+リソースが正常な方へトラフィックをルーティングできます。正常かどうかはRoute 53ヘルスチェックを利用します。<ins>このルーティングポリシーを利用すれば、リージョン障害への対策も可能です。</ins>
+
+![chapter3_Page22.drawio.png](../drawio/chapter3/chapter3-Page-22.drawio.png)
+
+
+複数値回答ルーティングポリシー  
+
+![chapter3_Page23.drawio.png](../drawio/chapter3/chapter3-Page-23.drawio.png)
+
+レイテンシールーティングポリシー  
+
+![chapter3_Page24.drawio.png](../drawio/chapter3/chapter3-Page-24.drawio.png)
 
 
 <a id="3-3"></a>
