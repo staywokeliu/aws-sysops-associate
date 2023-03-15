@@ -243,18 +243,36 @@ Elastic IPアドレス、別のインスタンスに割り当て直すことが�
 ### 3-3 バックアップ・リストア戦略の導入
 
 
-
 <a id="3-3-1"></a>
 
 **ユースケースにもとづいたスナップショットとバックアップの自動化**
+
+![chapter3_Page25.drawio.png](../drawio/chapter3/chapter3-Page-25.drawio.png)
 
 <a id="3-3-2"></a>
 
 **データベースのリストア**
 
+![chapter3_Page26.drawio.png](../drawio/chapter3/chapter3-Page-26.drawio.png)
+
+
+![chapter3_Page27.drawio.png](../drawio/chapter3/chapter3-Page-27.drawio.png)
+
+
 <a id="3-3-3"></a>
 
 **バージョニングとライフサイクルルールの実装**
+
+![chapter3_Page28.drawio.png](../drawio/chapter3/chapter3-Page-28.drawio.png)
+
+アクセス制限の比較
+
+| アクセス制限  | 制限対象 | 制限の単位 | 主な用途 |
+| ------------- | ------------- | ------------- | ------------- |
+| IAMポリシー | アクセス元  | IAMユーザーまたはIAMロール  | ユーザー・ロール単位の制限 |
+| パケットポリシー | アクセス先  | S3バケット | バケット単位の制限・クロスアカウントの制限 |
+| ACL | アクセス先 | S3バケットまたはオブジェクト | オブジェクト単位の制限 |
+
 
 <a id="3-3-4"></a>
 
