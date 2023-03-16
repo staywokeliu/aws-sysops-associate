@@ -279,9 +279,17 @@ Elastic IPアドレス、別のインスタンスに割り当て直すことが�
 **Amazon S3クロスリージョンレプリケーションの設定**
 
 
+![chapter3_Page29.drawio.png](../drawio/chapter3/chapter3-Page-29.drawio.png)
+
+
 <a id="3-3-5"></a>
 
 **災害復旧手順の実行**
+
+![chapter3_Page30.drawio.png](../drawio/chapter3/chapter3-Page-30.drawio.png)
+
+
+![chapter3_Page31.drawio.png](../drawio/chapter3/chapter3-Page-31.drawio.png)
 
 
 
