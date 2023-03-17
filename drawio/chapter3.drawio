@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T15:00:16.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="1-fzb4ZiaZGCYiJvC7zX" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2023-03-17T15:04:56.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="1cHHhuCS9HP0HCvLZc1F" type="github" pages="35">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2692,7 +2692,7 @@
             <mxPoint x="650" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ZpS405GtKChhpPJMO6f-2" value="ウオームスタンバイの正常時" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_ZpS405GtKChhpPJMO6f-2" value="ウォームスタンバイの正常時" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="141" y="541" width="299" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_ZpS405GtKChhpPJMO6f-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -2787,7 +2787,7 @@
             <mxPoint x="650" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SehZcLgS2wULfCbFV8Pb-28" value="ウオームスタンバイの障害時" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SehZcLgS2wULfCbFV8Pb-28" value="ウォームスタンバイの障害時" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="141" y="541" width="299" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SehZcLgS2wULfCbFV8Pb-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
