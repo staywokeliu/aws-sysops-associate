@@ -286,11 +286,37 @@ Elastic IPアドレス、別のインスタンスに割り当て直すことが�
 
 **災害復旧手順の実行**
 
-![chapter3_Page30.drawio.png](../drawio/chapter3/chapter3-Page-30.drawio.png)
 
+- バックアップ・リストア
+- パイロットライト
+- ウォームスタンバイ
+- マルチサイト
+
+
+バックアップ・リストア
+
+![chapter3_Page30.drawio.png](../drawio/chapter3/chapter3-Page-30.drawio.png)
 
 ![chapter3_Page31.drawio.png](../drawio/chapter3/chapter3-Page-31.drawio.png)
 
+パイロットライト
+
+![chapter3_Page32.drawio.png](../drawio/chapter3/chapter3-Page-32.drawio.png)
+
+
+![chapter3_Page33.drawio.png](../drawio/chapter3/chapter3-Page-33.drawio.png)
+
+ウォームスタンバイ
+
+![chapter3_Page34.drawio.png](../drawio/chapter3/chapter3-Page-34.drawio.png)
+
+![chapter3_Page35.drawio.png](../drawio/chapter3/chapter3-Page-35.drawio.png)
+
+マルチサイト
+
+![chapter3_Page36.drawio.png](../drawio/chapter3/chapter3-Page-36.drawio.png)
+
+![chapter3_Page37.drawio.png](../drawio/chapter3/chapter3-Page-37.drawio.png)
 
 
 <br>
