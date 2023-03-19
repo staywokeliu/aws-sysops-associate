@@ -100,6 +100,7 @@ ELastic Beanstalkがデプロイするインフラ構成
 | Webサーバー環境 | ELB + EC2(Auto Scaling) | Webサイト | 
 | ワーカー環境 | SQS + EC2(Auto Scaling) | バッチ | 
 
+Elastic Beanstalkで利用できるデプロイメント
 
 |  | まとめて切り替え | 徐々に切り替え | 
 | ------------- | ------------- | ------------- | 
