@@ -91,6 +91,21 @@ SSMはデプロイの自動化だけではなく、タスク自動化やスケ�
 ![chapter4_Page1.drawio.png](../drawio/chapter4/chapter4-Page-1.drawio.png)
 
 
+**Elastic Beanstalk**
+
+ELastic Beanstalkがデプロイするインフラ構成
+
+| 環境  | 構成 | ユースケース | 
+| ------------- | ------------- | ------------- | 
+| Webサーバー環境 | ELB + EC2(Auto Scaling) | Webサイト | 
+| ワーカー環境 | SQS + EC2(Auto Scaling) | バッチ | 
+
+
+|  | まとめて切り替え | 徐々に切り替え | 
+| ------------- | ------------- | ------------- | 
+| インスタンスを更新 | In Place | ローリング | 
+| インスタンスを作成/削除 | Blue/Green | カナリア | 
+
 
 <br>
 
