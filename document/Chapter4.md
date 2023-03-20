@@ -12,7 +12,7 @@
 4-2  手動または反復可能なプロセスの自動化
 - [デプロイメントプロセスの自動化](#4-2-1)
 - 自動だされたパッチ管理の導入
-- 自動タスクをスケジュールする
+- [自動タスクをスケジュールする](#4-2-3)
 
 
 <a id="4-1-2"></a>
@@ -107,6 +107,17 @@ Elastic Beanstalkで利用できるデプロイメント
 | インスタンスを更新 | In Place | ローリング | 
 | インスタンスを作成/削除 | Blue/Green | カナリア | 
 
+
+**自動タスクをスケジュールする**
+
+AWS Config
+
+![chapter4_Page2.drawio.png](../drawio/chapter4/chapter4-Page-2.drawio.png)
+
+
+Amazon EventBridge
+
+![chapter4_Page3.drawio.png](../drawio/chapter4/chapter4-Page-3.drawio.png)
 
 <br>
 
