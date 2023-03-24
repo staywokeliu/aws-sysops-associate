@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T11:14:27.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="s8QCbHWoiWbpnC-hP-OS" version="21.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-24T12:31:59.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NsQJTX-sFXCwzCjOcAFM" version="21.0.8" type="github" pages="3">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="2284" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -299,6 +299,130 @@
         </mxCell>
         <mxCell id="Q4QjNt5qEQkkhqqC6QaA-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="50" y="479" width="12" height="12" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="plE2QljGcSj3L2VLNjvs" name="Page-3">
+    <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rvQdS3aZINat36CJPZjK-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-1" value="対象のデータ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-5" value="暗号化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;" edge="1" parent="1" source="rvQdS3aZINat36CJPZjK-2" target="rvQdS3aZINat36CJPZjK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-2" value="CDK&lt;br&gt;（Planetext）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="314" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=2;sourcePerimeterSpacing=3;" edge="1" parent="1" source="rvQdS3aZINat36CJPZjK-3" target="rvQdS3aZINat36CJPZjK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-3" value="CDK&lt;br&gt;（暗号化）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="314" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-4" value="CMK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;" edge="1" parent="1" source="rvQdS3aZINat36CJPZjK-7" target="rvQdS3aZINat36CJPZjK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-7" value="GenerateDataKey" style="text;strokeColor=none;align=right;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-8" value="利用者のアプリケーション" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="120" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rvQdS3aZINat36CJPZjK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="targetPoint" />
+            <mxPoint x="540" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-15" value="暗号化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-18" value="暗号化された&lt;br&gt;データ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-28" value="データ&lt;br&gt;の復号" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;" edge="1" parent="1" source="rvQdS3aZINat36CJPZjK-21" target="rvQdS3aZINat36CJPZjK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-21" value="CDK&lt;br&gt;（Planetext）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="314" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-22" value="CMK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="418" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;" edge="1" parent="1" source="rvQdS3aZINat36CJPZjK-24" target="rvQdS3aZINat36CJPZjK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-24" value="Decrypt" style="text;strokeColor=none;align=right;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-25" value="利用者のアプリケーション" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="350" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#007FFF;targetPerimeterSpacing=3;sourcePerimeterSpacing=3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rvQdS3aZINat36CJPZjK-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="targetPoint" />
+            <mxPoint x="540" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-27" value="復号" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-30" value="KMS" style="text;strokeColor=none;align=right;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-31" value="KMS" style="text;strokeColor=none;align=right;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-20" value="CDK&lt;br&gt;（暗号化）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="314" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-35" value="暗号化CDKは利用者で保管。&lt;br&gt;Planetextは利用者側で破棄する。" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-37" value="KMSがCMKからCDKを生成する。&lt;br&gt;このとき、暗号化CDKとPlanetext&lt;br&gt;(暗号化されていない)が返却される。" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvQdS3aZINat36CJPZjK-38" value="暗号化CDKを指定してDecryptを実行する。&lt;br&gt;KMSではCMKを使って暗号化CDKを復号する。" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="490" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="imm4xAWMKqJgLWSDSOKj-1" value="" style="endArrow=none;html=1;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="540" as="sourcePoint" />
+            <mxPoint x="670" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imm4xAWMKqJgLWSDSOKj-2" value="KMSデータ暗号化の流れ" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="121" y="541" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imm4xAWMKqJgLWSDSOKj-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="549" width="12" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
