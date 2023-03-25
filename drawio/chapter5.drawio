@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T12:32:07.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-dB81MymD-SiT7BoUCs0" version="21.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-25T10:13:17.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cyx9Ts8oweGz0fZRro_5" version="21.0.8" type="github" pages="4">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="2284" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="plE2QljGcSj3L2VLNjvs" name="Page-3">
-    <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -423,6 +423,77 @@
         </mxCell>
         <mxCell id="imm4xAWMKqJgLWSDSOKj-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="100" y="549" width="12" height="12" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x7PtoMc8-EIdlWvqMe_1" name="Page-4">
+    <mxGraphModel dx="1228" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nNdaiatZoDJfjcr-njnS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;sourcePerimeterSpacing=3;targetPerimeterSpacing=3;strokeColor=#007FFF;" edge="1" parent="1" source="nNdaiatZoDJfjcr-njnS-2" target="gKlIs3lI1eHiUX5R7ce1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNdaiatZoDJfjcr-njnS-2" value="EBS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-1" value="EC2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="20" height="38.48" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;sourcePerimeterSpacing=3;targetPerimeterSpacing=3;strokeColor=#007FFF;" edge="1" parent="1" source="gKlIs3lI1eHiUX5R7ce1-7" target="gKlIs3lI1eHiUX5R7ce1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-7" value="スナップショット" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-9" value="コピーした&lt;br&gt;スナップショット" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="156" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-14" value="スナップショットから復元したEBSボリューム" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="424" y="230" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-15" value="別のEC2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="441" y="140" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-16" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="20" height="38.48" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-17" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
+          <mxGeometry x="330" y="261.52" width="20" height="38.48" as="geometry" />
+        </mxCell>
+        <mxCell id="gKlIs3lI1eHiUX5R7ce1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;sourcePerimeterSpacing=3;targetPerimeterSpacing=3;strokeColor=#007FFF;" edge="1" parent="1" source="gKlIs3lI1eHiUX5R7ce1-7" target="gKlIs3lI1eHiUX5R7ce1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0SIc5jSqr9qlzHo6DQP-1" value="" style="endArrow=none;html=1;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="390" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0SIc5jSqr9qlzHo6DQP-2" value="EBSの暗号化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="51" y="391" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0SIc5jSqr9qlzHo6DQP-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="399" width="12" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9G3mRgs0OGe5i75Qx10-1" value="①EBSボリュームを暗号化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9G3mRgs0OGe5i75Qx10-2" value="②EBSボリュームから生成したスナップショット、コピーも自動的に暗号化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="320" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9G3mRgs0OGe5i75Qx10-3" value="③スナップショットから復元したEBSボリュームも暗号化される" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="165" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
