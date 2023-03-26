@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T07:32:17.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="i8GefeS3lcrO_suHtzvL" version="21.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-26T07:32:49.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="35x6o_bQWYJOSwNrGChw" version="21.0.8" type="github" pages="3">
   <diagram name="Page-1" id="WvbBg32lGgJ5YiQN1U2Q">
     <mxGraphModel dx="1228" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -493,8 +493,8 @@
             <mxPoint x="620" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KCqwb8e2n4eoOd6EljSI-38" value="NATゲートウェイ構成でのインバウンド通信とアウトバウント通信" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="161" y="581" width="389" height="30" as="geometry" />
+        <mxCell id="KCqwb8e2n4eoOd6EljSI-38" value="NATゲートウェイ経由でインターネット通信を行うネットワーク構成" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="161" y="581" width="399" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KCqwb8e2n4eoOd6EljSI-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="140" y="589" width="12" height="12" as="geometry" />
